@@ -1,11 +1,25 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-body{
-  background-image: url(../img/first.jpg);
-  background-size: cover;
-  width: 100%;
-  height: 100%;
+
+body {
+	background-image: url(../img/first.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	font-family: "Lato", sans-serif;
+}
+a {
+	text-decoration: none;
+}
+/* ! Мне кажется что данную ширину можно увеличить до 1600 px */
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+.center {
+	padding-left: calc(50% - 570px);
+	padding-right: calc(50% - 570px);
 }
